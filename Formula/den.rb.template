@@ -61,9 +61,9 @@ class Den < Formula
   homepage "https://swiftotter.github.io/den"
   license "MIT"
   version "${VERSION}"
-  url "https://github.com/swiftotter/den/archive/${VERSION}.tar.gz"
+  url "https://github.com/canaryengine/den/archive/${VERSION}.tar.gz"
   sha256 "${HASH}"
-  head "https://github.com/swiftotter/den.git", :branch => "main"
+  head "https://github.com/canaryengine/den.git", :branch => "master"
 
   depends_on DockerRequirement
 
