@@ -60,9 +60,9 @@ class Den < Formula
   desc "Den is a CLI utility for working with docker-compose environments"
   homepage "https://swiftotter.github.io/den"
   license "MIT"
-  version "1.0.0-beta.13.1"
-  url "https://github.com/canaryengine/den/archive/1.0.0-beta.13.1.tar.gz"
-  sha256 "304f517fd93a8e43b850aa6b063b2a2259fb86d1a9e35d654058d0ffb9d1a6c0"
+  version "1.0.0-beta.13.2"
+  url "https://github.com/canaryengine/den/archive/1.0.0-beta.13.2.tar.gz"
+  sha256 "66ac1129d456fa075bdac565dec0875a6f29ebbfc015b0f853a8c62c88883ec0"
   head "https://github.com/canaryengine/den.git", :branch => "master"
 
   depends_on DockerRequirement
