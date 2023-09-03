@@ -66,6 +66,8 @@ class Den < Formula
   head "https://github.com/canaryengine/den.git", :branch => "master"
 
   depends_on DockerRequirement
+  depends_on "gettext"
+  depends_on "pv" => :recommended
 
   def install
     prefix.install Dir["*"]
