@@ -60,9 +60,9 @@ class Den < Formula
   desc "Den is a CLI utility for working with docker-compose environments"
   homepage "https://swiftotter.github.io/den"
   license "MIT"
-  version "1.0.0-beta.13.2"
-  url "https://github.com/canaryengine/den/archive/1.0.0-beta.13.2.tar.gz"
-  sha256 "66ac1129d456fa075bdac565dec0875a6f29ebbfc015b0f853a8c62c88883ec0"
+  version "1.0.0-beta.14.1"
+  url "https://github.com/canaryengine/den/archive/1.0.0-beta.14.1.tar.gz"
+  sha256 "45f4548cc1da23ef16af027fc92a45ccc1404198ab9188e93fa160c7212319ea"
   head "https://github.com/canaryengine/den.git", :branch => "master"
 
   depends_on DockerRequirement
@@ -76,12 +76,12 @@ class Den < Formula
   def caveats
     <<~EOS
       Den manages a set of global services on the docker host machine. You
-      will need to have Docker running and Docker Compose (>= 2.2.3) available in
+      will need to have Docker running and Docker Compose (>= 2.2.3) available in 
       your local $PATH configuration prior to starting Den.
 
       To start warden simply run:
         den svc up
-
+      
       This command will automatically run "den install" to setup a trusted
       local root certificate and sign an SSL certificate for use by services
       managed by warden via the "warden sign-certificate warden.test" command.
